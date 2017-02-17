@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: locus-1
+  host: locus-1
+  disk_quota: 1024M
+  services:
+  - locus-1-cloudantNoSQLDB
+  - locus-1-iotf-service
